@@ -1,0 +1,4 @@
+wsh
+===
+
+Windows Scripting Host
