@@ -32,7 +32,7 @@ var intButton = -1;
 WScript.Echo("Start Activity Simulator");
 
 while(intButton!=2) {
-	WScript.Sleep(50000);
+	WScript.Sleep(300000); // milliseconds - 5 minutes in this case
 	WshShell.SendKeys("+");  // + Means Shift Key
 	intButton = WshShell.Popup("Work is in progress! DO NOT TOUCH!",3,"DO NOT TOUCH!",0x1 + 0x40);
 }
